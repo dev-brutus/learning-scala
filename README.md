@@ -7,6 +7,7 @@
 
 * http://www.scala-lang.org/docu/files/ScalaTutorial.pdf
 * http://www.slideshare.net/alexeymigutsky/scala-intro-27425692
+* http://ru.wikibooks.org/wiki/Scala_в_примерах
 
 ----
 
