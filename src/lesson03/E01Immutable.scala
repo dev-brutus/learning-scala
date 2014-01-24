@@ -9,7 +9,7 @@ object E01Immutable extends App {
   println(upperOriginal)
   println()
 
-  val evenNumbers = (1 to 20).filter(0 == _ % 2).map(n => s"Hello Mr. $n")
+  val evenNumbers = (1 to 20).filter(0 == _ % 2).map(n => s"Hello, Mr. $n")
   println(evenNumbers)
 
   val evenNumbersWithSmth = evenNumbers.updated(0, "Foo")
