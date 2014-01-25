@@ -3,7 +3,7 @@ package lesson01
 /**
  *
  */
-object E07MatchingA extends App {
+object E08MatchingA extends App {
   val optionsCount = args.size match {
     case 0 => "No options"
     case 1 => "One option"
@@ -15,7 +15,7 @@ object E07MatchingA extends App {
   println(optionsCount)
 }
 
-object E07MatchingB extends App {
+object E08MatchingB extends App {
   val optionArgs: Option[String] = args match {
     case _ if args.isEmpty => None
     case _ => Some(args.mkString(" "))

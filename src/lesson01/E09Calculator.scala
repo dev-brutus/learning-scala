@@ -19,7 +19,7 @@ case class Sub(a1: Expression, a2: Expression) extends Expression {
   override def toString: String = s"($a1 - $a2)"
 }
 
-object E08Calculator extends App {
+object E09Calculator extends App {
 
   def evaluate(e: Expression): Double = {
     e match {

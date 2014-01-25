@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat
 /**
  *
  */
-class Fields {
+class E05Fields {
 
   // значение с автоматическим вычислением типа
   val time = new Date()
@@ -15,7 +15,7 @@ class Fields {
 
   // метод состоит из одного выражения, так что скобки {} можно не писать
   override def toString: String =
-    // if это тоже выражение
+  // if это тоже выражение
     if (null == format) {
       time.toString
     } else {
@@ -23,8 +23,8 @@ class Fields {
     }
 }
 
-object Fields extends App {
-  val now = new Fields
+object E05Fields extends App {
+  val now = new E05Fields
   println("Default format: " + now)
   now.format = "YYYY-MM-DD'T'hh:mm:ssZ"
   // now.time = <smth> писать нельзя
