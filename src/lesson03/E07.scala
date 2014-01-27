@@ -6,11 +6,15 @@ package lesson03
 
 
 object E07 extends App {
-  val a = List[Short](1, 4, 6, 9)
+  val numbers = List(1, 4, 6, 9)
 
-  def op(a: Short, b: Short): Short = {
-    (a + b).asInstanceOf[Short]
+  type Accumulator = (Double, Int)
+
+  def op(accumulator: Accumulator, item: Int) = {
+    (accumulator._1 + item, accumulator._2 + 1)
   }
 
-  println(a.companion)
+  private val avg: Accumulator = numbers.foldLeft(0.0, 0)(op)
+
+  println(avg._1 / avg._2)
 }
