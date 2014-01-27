@@ -1,25 +1,23 @@
 package lesson03
 
+import scala.collection.GenTraversable
 
 /**
  *
  */
 
-class E05Parallel(t: Traversable[Int], parallel: Boolean) {
+class E05Parallel(t: GenTraversable[Int]) {
   var sum = 0
 
-  val coll = if (parallel) t.par else t
-
-  coll.foreach(x => {
+  t.foreach(x => {
     sum = sum + x
   })
 }
 
 object E05Parallel extends App {
-  val seq = new E05Parallel(1 to 1000, false)
-  val par = new E05Parallel(1 to 1000, true)
+  val iterations = 1 to 1000
 
-  println(s"Sequence: ${seq.sum}")
-  println(s"Parallel: ${par.sum}")
+  println(s"Sequence: ${new E05Parallel(iterations).sum}")
+  println(s"Parallel: ${new E05Parallel(iterations.par).sum}")
 
 }
