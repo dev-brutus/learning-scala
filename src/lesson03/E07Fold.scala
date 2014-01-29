@@ -5,7 +5,7 @@ package lesson03
  */
 
 
-object E07 extends App {
+object E07Fold extends App {
   val numbers = List(1, 4, 6, 9)
 
   type Accumulator = (Double, Int)
