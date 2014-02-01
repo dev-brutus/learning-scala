@@ -3,11 +3,9 @@ package lesson03
 /**
  *
  */
-object E11Conversion {
-  // reverseIterator
-  //toIterator
-  // ....
+object E12Conversion {
   // seq
+  // par
 
   //toArray
   //toBuffer
