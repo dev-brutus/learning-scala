@@ -18,6 +18,9 @@ object E09Union extends App {
   val patchedUnion = union.patch(3, Array(100, 101, 102), 2)
   println(s"Patched union: $patchedUnion")
 
+  val padded = origin.padTo(7, -1)
+  println(s"Padded: $padded; The length is: ${padded.length}")
+
   println
   println("==== ZIP ====")
 
