@@ -5,7 +5,7 @@ package lesson03
  *
  */
 object E04Tuple extends App {
-  private val indexedPersons: List[(String, Int)] = List("Alice", "Bob", "Charlie").zipWithIndex
+  private val indexedPersons: Seq[(String, Int)] = List("Alice", "Bob", "Charlie").zipWithIndex
   println(indexedPersons)
   println()
 
