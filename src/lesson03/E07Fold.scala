@@ -17,4 +17,6 @@ object E07Fold extends App {
   private val avg: Accumulator = numbers.foldLeft(0.0, 0)(op)
 
   println(avg._1 / avg._2)
+
+  // See aggregate and reduce
 }
