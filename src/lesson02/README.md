@@ -8,8 +8,8 @@
 
 ## Примеры
 
-* [Пример функции](E01Functions.scala)
-* [Пример замыкания](E02Closure.scala)
-* [Пример функтора](E03Functor.scala)
+* Пример функции: [E01Functions.scala](E01Functions.scala)
+* Пример замыкания: [E02Closure.scala](E02Closure.scala)
+* Пример функтора: [E03Functor.scala](E03Functor.scala)
 
-[Далее](../lesson02)
+[Далее](../lesson03)
