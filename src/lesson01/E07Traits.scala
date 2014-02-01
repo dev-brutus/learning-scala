@@ -38,6 +38,7 @@ object E07Traits extends App {
     override def toString: String = value.toString
   }
 
+  // На самом деле в Scala нет цикла for. Это всё сахар.
   for (numbers <- (1 to 4).combinations(2)) {
     for (numbers <- numbers.permutations) {
       val x = new Holder(numbers(0))
