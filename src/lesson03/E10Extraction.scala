@@ -47,12 +47,34 @@ object E10Extraction extends App {
   println(s"Tail: $tail")
   println
 
+  println("=== partition, span ===")
+  private val isCapitalized: (String) => Boolean = s => {
+    s.toLowerCase != s
+  }
+  val partitioned = origin.partition(isCapitalized)
+  val spanned = origin.span(isCapitalized)
+  println(s"Origin:      $origin")
+  println(s"Partitioned: $partitioned")
+  println(s"Spanned:     $spanned")
+  println
 
-  // padTo
-  // partition
-  // slice
-  // sliding
-  // span
-  // splitAt
-  // take
+  println("=== slice ===")
+  val slice = origin.slice(2, 4)
+  println(s"Origin: $origin")
+  println(s"Slice:  $slice")
+  println
+
+  println("=== splitAt ===")
+  val splitted = origin.splitAt(4)
+  println(s"Origin:   $origin")
+  println(s"Splitted: $splitted")
+  println
+
+  println("=== take ===")
+  val taken = origin.take(4)
+  println(s"Origin: $origin")
+  println(s"Taken:  $taken")
+  println
+
+
 }
