@@ -28,9 +28,9 @@ object E10Extraction extends App {
   private val strings = Array("Scala", "the")
   val diff = origin.diff(strings)
   val intersect = origin.intersect(strings)
-  println(s"Origin:         $origin")
-  println(s"Diff:           $diff")
-  println(s"Intersection:   $intersect")
+  println(s"Origin:       $origin")
+  println(s"Diff:         $diff")
+  println(s"Intersection: $intersect")
   println
 
   println("=== distinct ===")
@@ -49,9 +49,9 @@ object E10Extraction extends App {
   val head = origin.head
   // См. headOption
   val tail = origin.tail
-  println(s"Origin:  $origin")
-  println(s"Head: $head")
-  println(s"Tail: $tail")
+  println(s"Origin: $origin")
+  println(s"Head:   $head")
+  println(s"Tail:   $tail")
   println
 
   println("=== partition, span ===")
