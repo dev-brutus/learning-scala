@@ -1,7 +1,7 @@
 Изучение Scala
 ==============
 
-[Изучение Scala](src/lesson00)
+[Изучение Scala](src/main/scala/lesson00)
 
 ## Ссылки
 
