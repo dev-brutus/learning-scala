@@ -13,7 +13,7 @@ object E10Extraction extends App {
 
   println("=== lift ===")
   val lift = origin.lift
-  for(n <- 9 until 14) {
+  for (n <- 9 until 14) {
     println(s"$n: ${lift(n)}")
   }
   println
