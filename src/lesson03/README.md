@@ -2,7 +2,7 @@
 
 См. http://www.scala-lang.org/docu/files/collections-api/collections.html
 
-* `Traversable`  &#8211; кортевой типаж
+* `Traversable`  &#8211; Корневой типаж
     * `Iterable`  &#8211; Итерируемые коллекции
         * `Seq` &#8211; Последовательность
             * `IndexedSeq` &#8211; Индексируемая последовательность
@@ -13,8 +13,8 @@
                 * `String`
                 * `Array`
             * `LinearSeq` &#8211; Связанная последовательность
-                * `iimmutable.List`
-                * `iimmutable.Stream`
+                * `immutable.List`
+                * `immutable.Stream`
                 * `imutable.MutableList`
                 * `imutable.Queue`
             * `mutable.Buffer` &#8211; Изменяемый буффер
