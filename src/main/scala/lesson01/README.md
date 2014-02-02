@@ -22,7 +22,7 @@
 
 Нет примитивов. Только объекты. [E03PureOOP.scala](E03PureOOP.scala)
 
-Функции тоже объекты  [E04Functional.scala](E04Functional.scala)
+Функции &#8211; тоже объекты. [E04Functional.scala](E04Functional.scala)
 
 ## Поля класса
 
