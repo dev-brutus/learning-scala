@@ -21,9 +21,9 @@ object E12Symbol extends App {
     }
   }
 
-  val machine = new Machine
+  private val machine = new Machine
 
-  List(
+  private val commands: List[Command] = List(
     'add -> 0x68,
     'hi -> 1,
     'add -> 0x65,
@@ -35,7 +35,11 @@ object E12Symbol extends App {
     'add -> 0x6f,
     'lo -> 5,
     'prn -> 6
-  ).foreach(machine.process)
+  )
+
+  for (command <- commands) {
+    machine.process(command)
+  }
 
 
 }
