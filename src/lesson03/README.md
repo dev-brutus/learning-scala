@@ -58,3 +58,20 @@
 ## Параллельные
 
 Любая коллекция может быть превращена в параллелизируемую с помощью метода `par`.
+
+## Примеры
+
+* Использование `map` [E01Map.scala](E01Map.scala)
+* Использование `filter` [E02Filter.scala](E02Filter.scala)
+* Использование проекций [E03View.scala](E03View.scala)
+* Использование кортежей [E04Tuple.scala](E04Tuple.scala)
+* Демонстрация параллелизации [E05Parallel.scala](E05Parallel.scala)
+* Демонстрация иммутабельности [E06Immutable.scala](E06Immutable.scala)
+* Использование `fold` [E07Fold.scala](E07Fold.scala)
+* Использование `zip` и `unzip` [E08Zip.scala](E08Zip.scala)
+* Методы объединения данных [E09Union.scala](E09Union.scala)
+* Методы извлечения данных [E10Extraction.scala](E10Extraction.scala)
+* Методы модификации коллекций [E10Modification.scala](E10Modification.scala)
+* Методы получения информации о коллекции [E11Info.scala](E11Info.scala)
+* Методы преобразования коллекций [E12Conversion.scala](E12Conversion.scala)
+* Пакетный объект [package.scala](package.scala)
