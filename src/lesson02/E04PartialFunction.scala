@@ -9,9 +9,10 @@ object E04PartialFunction extends App {
     case s if s.matches("^[-+]?[0-9]*\\.?[0-9]+([eE][-+]?[0-9]+)?$") => s.toDouble
   }
 
-  val doubles: List[Double] = List("1.2", "Foo", "-1.3E+5", "Bar", "42").
-    filter(stringToDouble.isDefinedAt).
-    map(stringToDouble)
+  val origin = List("1.2", "Foo", "-1.3E+5", "Bar", "42")
+
+  val doubles: List[Double] =
+    for (s <- origin if stringToDouble.isDefinedAt(s)) yield stringToDouble(s)
 
   println(doubles)
 
