@@ -67,4 +67,4 @@ Scala поддерживает неявное *(implicit)* преобразов�
 
 См. [E12Symbol.scala](E12Symbol.scala)
 
-[Далее](../lesson02)
+[Далее](/src/main/scala/lesson02/)
