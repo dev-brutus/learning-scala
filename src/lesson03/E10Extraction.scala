@@ -11,6 +11,13 @@ object E10Extraction extends App {
   println(s"This condition is always ${origin(3) == origin.apply(3)}")
   println
 
+  println("=== lift ===")
+  val lift = origin.lift
+  for(n <- 9 until 14) {
+    println(s"$n: ${lift(n)}")
+  }
+  println
+
   println("=== copyToArray ===")
   val buffer: Array[String] = Array.fill(4)("")
   origin.copyToArray(buffer, 2, 3) // См. copyToBuffer
