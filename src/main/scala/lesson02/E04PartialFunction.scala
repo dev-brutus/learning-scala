@@ -15,5 +15,4 @@ object E04PartialFunction extends App {
     for (s <- origin if stringToDouble.isDefinedAt(s)) yield stringToDouble(s)
 
   println(doubles)
-
 }

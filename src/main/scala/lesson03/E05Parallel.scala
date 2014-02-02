@@ -19,5 +19,4 @@ object E05Parallel extends App {
 
   println(s"Sequence: ${new E05Parallel(iterations).sum}")
   println(s"Parallel: ${new E05Parallel(iterations.par).sum}")
-
 }

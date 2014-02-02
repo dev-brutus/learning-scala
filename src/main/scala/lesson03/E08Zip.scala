@@ -18,6 +18,4 @@ object E08Zip extends App {
   println(s"Unzipped:  $unzipped")
   println(s"UnzippedA: $unzippedA")
   println(s"UnzippedB: $unzippedB")
-
-
 }

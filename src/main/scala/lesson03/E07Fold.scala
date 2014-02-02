@@ -14,9 +14,7 @@ object E07Fold extends App {
     (accumulator._1 + item, accumulator._2 + 1)
   }
 
-  private val avg: Accumulator = numbers.foldLeft(0.0, 0)(op)
+  private val avg: Accumulator = numbers.foldLeft(0.0, 0)(op) // См. aggregate и reduce
 
   println(avg._1 / avg._2)
-
-  // See aggregate and reduce
 }

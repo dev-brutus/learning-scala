@@ -82,6 +82,4 @@ object E10Extraction extends App {
   println(s"Origin: $origin")
   println(s"Taken:  $taken")
   println
-
-
 }

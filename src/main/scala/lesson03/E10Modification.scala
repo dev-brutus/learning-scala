@@ -49,5 +49,4 @@ object E10Modification extends App {
   println(s"Numbers (simple):  $numbersSimple;")
   println(numbersComplex)
   println
-
 }
