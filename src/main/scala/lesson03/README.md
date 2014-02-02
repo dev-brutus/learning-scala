@@ -37,15 +37,15 @@
 
 ## Неизменяемые
 
-* `List` &#8211; Связанный список
-* `Vector` &#8211; Индексированный список
+* `List` &#8211; Связанный список.
+* `Vector` &#8211; Индексированный список.
 * `Stream` &#8211; Список с кэшированием и ленивым вычислением элементов. Может быть бесконечным.
 
 ## Изменяемые
 
-* `ArrayBuffer` &#8211; Аналог `ArrayList`
-* `ListBuffer` &#8211; Аналог `LinkedList`
-* `StringBuilders` &#8211; Аналог `StringBuilder`
+* `ArrayBuffer` &#8211; Аналог `ArrayList`.
+* `ListBuffer` &#8211; Аналог `LinkedList`.
+* `StringBuilders` &#8211; Аналог `StringBuilder`.
 
 ## Методы `map` и `filter`
 
