@@ -12,4 +12,9 @@
 * Пример замыкания: [E02Closure.scala](E02Closure.scala)
 * Пример функтора: [E03Functor.scala](E03Functor.scala)
 
+## Частично определённые функции
+
+Существует возможность создать функцию, определённую только на некотором наборе значений. Для этого используется класс
+`PartialFunction`. См. [E04PartialFunction.scala](E04PartialFunction.scala)
+
 [Далее](../lesson03)

@@ -6,8 +6,10 @@ package lesson01
 
 object E06Constructors extends App {
 
+  // Первичный конструктор
   class Vector2D(x: Double, y: Double) {
 
+    // Дополнительный конструктор
     def this(coordinates: (Double, Double)) = {
       this(coordinates._1, coordinates._2)
     }
