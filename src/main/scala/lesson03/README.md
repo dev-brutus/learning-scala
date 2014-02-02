@@ -74,4 +74,3 @@
 * Методы модификации коллекций [E10Modification.scala](E10Modification.scala)
 * Методы получения информации о коллекции [E11Info.scala](E11Info.scala)
 * Методы преобразования коллекций [E12Conversion.scala](E12Conversion.scala)
-* Пакетный объект [package.scala](package.scala)
