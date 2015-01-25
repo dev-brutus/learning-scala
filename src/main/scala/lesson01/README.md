@@ -55,7 +55,7 @@
 
 Scala поддерживает неявное *(implicit)* преобразование типов. Вот как можно изменить предыдущий пример: [E10Implicit.scala](E10Implicit.scala)
 
-Так же могут быть неявными и параметры: [E11Implicit.scala](E11Implicit.scala)
+Неявными так же могут быть параметры и декораторы: [E11Implicit.scala](E11Implicit.scala)
 
 ## Символы
 
