@@ -87,9 +87,9 @@ Scala поощеряет иммутабельность. По умолчанию
 Методы `zip` и `unzip` используются для поэлементного склеивания и разъединения коллекций: [E08Zip.scala](E08Zip.scala)
 
 ## Прочие методы:
-* Методы объединения данных [E09Union.scala](E09Union.scala)
-* Методы извлечения данных [E10Extraction.scala](E10Extraction.scala)
-* Методы модификации коллекций [E10Modification.scala](E10Modification.scala)
-* Методы получения информации о коллекции [E11Info.scala](E11Info.scala)
-* Методы преобразования коллекций [E12Conversion.scala](E12Conversion.scala)
-* Пакетный объект [package.scala](package.scala)
+* Методы объединения данных: [E09Union.scala](E09Union.scala)
+* Методы извлечения данных: [E10Extraction.scala](E10Extraction.scala)
+* Методы модификации коллекций: [E10Modification.scala](E10Modification.scala)
+* Методы получения информации о коллекции: [E11Info.scala](E11Info.scala)
+* Методы преобразования коллекций: [E12Conversion.scala](E12Conversion.scala)
+* Пакетный объект: [package.scala](package.scala)
