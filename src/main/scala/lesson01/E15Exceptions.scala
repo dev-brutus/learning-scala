@@ -3,7 +3,7 @@ package lesson01
 /**
  *
  */
-object E13Exceptions extends App {
+object E15Exceptions extends App {
   def thrower = throw new Exception
 
   try {
