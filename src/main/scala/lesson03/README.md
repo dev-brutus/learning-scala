@@ -93,3 +93,5 @@ Scala поощеряет иммутабельность. По умолчанию
 * Методы получения информации о коллекции: [E11Info.scala](E11Info.scala)
 * Методы преобразования коллекций: [E12Conversion.scala](E12Conversion.scala)
 * Пакетный объект: [package.scala](package.scala)
+
+[Назад](/src/main/scala/lesson02/)

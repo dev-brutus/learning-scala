@@ -86,4 +86,4 @@ Scala поддерживает неявное *(implicit)* преобразов�
 
 В Scala нет checked исключений. Все исключения обрабатываются как unchecked. См. [E15Exceptions.scala](E15Exceptions.scala)
 
-[Далее](/src/main/scala/lesson02/)
+[Назад](/src/main/scala/lesson00/) | [Далее](/src/main/scala/lesson02/)

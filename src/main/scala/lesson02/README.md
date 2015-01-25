@@ -18,4 +18,4 @@
 Для этого используется класс `PartialFunction`.
 См. [E04PartialFunction.scala](E04PartialFunction.scala)
 
-[Далее](/src/main/scala/lesson03/)
+[Назад](/src/main/scala/lesson01/) | [Далее](/src/main/scala/lesson03/)
