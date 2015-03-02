@@ -11,6 +11,11 @@ object E09Union extends App {
   println(s"Origin wit single element: $originWithSingleElement")
   println
 
+  println("=== +: ===")
+  val originWithOtherElement = 5 +: origin
+  println(s"Origin wit single element: $originWithOtherElement")
+  println
+
   println("=== ++ ===")
   val originWithManyElements = origin ++ List(1, 2, 4, 8)
   println(s"Origin wit many elements: $originWithManyElements")

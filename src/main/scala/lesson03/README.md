@@ -15,8 +15,8 @@
             * `LinearSeq` &#8211; Связанная последовательность
                 * `immutable.List`
                 * `immutable.Stream`
-                * `immutable.MutableList`
-                * `immutable.Queue`
+                * `mutable.MutableList`
+                * `mutable.Queue`
             * `mutable.Buffer` &#8211; Изменяемый буффер
                 * `mutable.ListBuffer`
                 * `mutable.ArrayBuffer`
@@ -29,7 +29,7 @@
             * `mutable.LinkedHashSet`
             * `BitSet`
         * `Map` &#8211; Справочник
-            * `MapSet` &#8211; Сортированный справочник
+            * `SortedMap` &#8211; Сортированный справочник
                 * `immutable.TreeMap`
             * `immutable.HashMap`
             * `mutable.HashMap`
@@ -58,6 +58,14 @@
 Проекции являются обёртками над настоящими коллекциями.
 Данные, получаемые из проекций, есть модифицированные &laquo;на лету&raquo; данные из оригинальной коллекции.
 См. [E03View.scala](E03View.scala)
+
+## Итераторы
+
+*TBD*
+
+## Потоки
+
+*TBD*
 
 ## Кортежи
 

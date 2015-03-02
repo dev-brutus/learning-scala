@@ -8,10 +8,12 @@ object E06Constructors extends App {
 
   // Первичный конструктор
   class Vector2D(x: Double, y: Double) {
+    println(s"Primary constructor $x; $y")
 
     // Дополнительный конструктор
     def this(coordinates: (Double, Double)) = {
       this(coordinates._1, coordinates._2)
+      println(s"Auxiliary constructor $coordinates")
     }
 
     lazy val length = {
